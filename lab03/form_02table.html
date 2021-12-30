@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form table</title>
+</head>
+<body>
+    <h3>Form Demo</h3>
+    <label for="name">ชื่อ -นามสกุล:</label>
+    &emsp;
+    <tr>
+        <input type="text" name="name" id="name">
+    </tr>
+    <br>
+    <br>
+    <label for="passwd">รหัสผ่าน:</label>
+    <tr>
+        &emsp;&emsp;&emsp;
+        <input type="password" name="passwd" id="passwd">
+    </tr>
+    <br>
+    <br>
+    <label for="sex">เพศ:</label>
+    <tr>
+        &emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="radio" name="sex" id="sex" value="M">ชาย
+        <input type="radio" name="sex" id="sex" value="F">หญิง
+    </tr>
+    <br>
+    <br>
+        <label for="choice">งานอดิเรก:</label>
+    <tr>&emsp;&emsp;
+        <input type="checkbox" name="choice1" id="choice1" value="1">ดูหนัง
+        <input type="checkbox" name="choice2" id="choice2" value="2">ฟังเพลง
+        <input type="checkbox" name="choice3" id="choice3" value="3">เล่นเกม
+    </tr>
+    <br>
+    <br>
+    <tr><label for="emotion">ความรู้สึกตอนนี้:</label>
+        &nbsp;
+        <select name="emotion">
+        <option value="0">--Select one--</option>
+        <option value="1">Happy</option>
+        <option value="2">Sad</option>
+        <option value="3">Fun</option>
+    </select>
+    </tr>
+    <br>
+    <br>
+    <div class="col-sm-2" align="left"> ข้อเสนอแนะ: 
+    &emsp;&ensp;
+    <Textarea name="commmet" id="comment" rows="5" cols="50"></Textarea>
+    <br>
+    <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+    
+</body>
+</html>
